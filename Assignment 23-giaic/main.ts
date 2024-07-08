@@ -1,0 +1,23 @@
+let num1 = 5;
+let num2 = 10;
+
+console.log("Test 1: Is num1 equal to 5?");
+console.log(num1 == 5);
+console.log("Test 2: Is num2 equal to 10?");
+console.log(num2 == 10);
+console.log("Test 3: Is num1 less than 10?");
+console.log(num1 < 10);
+console.log("Test 4: Is num2 greater than 5?");
+console.log(num2 > 5);
+console.log("Test 5: num1 is not equal to 10?");
+console.log(num1 !== 10);
+console.log("Test 6: Is num1 equal to 10?");
+console.log(num1 == 10);
+console.log("Test 7: Is num1 less than 4?");
+console.log(num1 < 4);
+console.log("Test 8: Is num2 greater than 10?");
+console.log(num2 > 10);
+console.log("Test 9: Is 5 is not equal to 5?");
+console.log(num1 !== 5);
+console.log("Test 10: Is num1 equal to 10?");
+console.log(num1 == 10);

@@ -1,0 +1,12 @@
+let placetoVisit: string[] = ["Malaysia", "Maldives", "Dubai", "Bali", "London"];
+console.log("Original order:", placetoVisit);
+console.log("Alphabetical order:", placetoVisit.slice().sort());
+console.log(placetoVisit);
+console.log("Reverse Alphabetical order:", placetoVisit.slice().sort().reverse());
+console.log(placetoVisit);
+placetoVisit.reverse();
+console.log("Reverse order:", placetoVisit);
+placetoVisit.reverse();
+console.log("Back to its original order:", placetoVisit);
+console.log("Again stored in Alphabetical order:", placetoVisit.slice().sort());
+console.log("Again stored in reverse alphabetical order:", placetoVisit.slice().sort().reverse());
